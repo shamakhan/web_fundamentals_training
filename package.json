@@ -1,0 +1,18 @@
+{
+  "name": "web_fundamentals_training",
+  "version": "1.0.0",
+  "description": "Basic HTTP and HTML training",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Shama Khan <shmkhan3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "10.21.0"
+  }
+}

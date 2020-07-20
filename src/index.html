@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://jsonplaceholder.typicode.com" crossorigin>
+</head>
+<body>
+  <div style="display: flex;">
+    <div style="margin-right: 50px;">
+      <h3>Request to same origin</h3>
+      <button onclick="getFromSameOrigin()">GET</button>
+      <button onclick="postToSameOrigin()">POST</button>
+    </div>
+    <div>
+      <h3>Request to different origin</h3>
+      <button onclick="getFromDifferentOrigin()">GET</button>
+      <button onclick="postToDifferentOrigin()">POST</button>
+    </div>
+
+  </div>
+  <!-- <button onclick="requestToDifferentOrigin()">Request to different origin</button> -->
+
+  <ul id="api-response">No data fetched yet</ul>
+
+  <script src="index.js"></script>
+</body>
+</html>
